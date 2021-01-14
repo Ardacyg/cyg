@@ -1,0 +1,21 @@
+﻿using System;
+
+public class Class1
+{
+	public Class1()
+	{
+        static void Main(int[] args)
+        {
+    Console.Write("Lütfen bir sayı giriniz:");
+int sayi = int.Parse(Console.ReadLine());
+
+if (sayi % 2 == 0)
+Console.WriteLine("Girdiğiniz sayı çift bir değerdir.");
+else
+Console.WriteLine("Girdiğiniz sayı tek bir değerdir.");
+
+Console.ReadKey();
+
+
+    }
+}
